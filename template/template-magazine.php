@@ -17,7 +17,7 @@ get_header(); ?>
 		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	
 
-	<div class="np-article-thumb">
+	<div class="k-article-thumb">
 		<?php the_post_thumbnail( 'full' ); ?>
 	</div><!-- .np-article-thumb -->
 
@@ -27,7 +27,7 @@ get_header(); ?>
 			
 		?>
 		<div class="entry-meta">
-			<?php news_portal_inner_posted_on(); ?>
+			<?php k_inner_posted_on(); ?>
 		</div><!-- .entry-meta -->
 	</header><!-- .entry-header -->
 
@@ -47,14 +47,14 @@ get_header(); ?>
 			) );
 
 			wp_link_pages( array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'news-portal' ),
+				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'k' ),
 				'after'  => '</div>',
 			) );
 		?>
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php news_portal_entry_footer(); ?>
+		<?php k_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->	
 
@@ -67,5 +67,5 @@ get_header(); ?>
 	</div><!-- #primary -->
 
 <?php
-news_portal_get_sidebar();
+k_get_sidebar();
 get_footer();
