@@ -23,7 +23,7 @@
      */
     do_action( 'k_after_page' );
 ?>
-
+footer_1
 <?php wp_footer(); ?>
 
 </body>
