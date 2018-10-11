@@ -16,14 +16,11 @@
 </div><!-- #page -->
 
 <?php
-	/**
-     * news_portal_after_page hook
-     *
-     * @since 1.0.0
-     */
+	
     do_action( 'k_after_page' );
 ?>
 footer_1
+footer_2
 <?php wp_footer(); ?>
 
 </body>
