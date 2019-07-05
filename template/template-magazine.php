@@ -29,7 +29,7 @@ get_header(); ?>
 		<div class="entry-meta">
 			<?php news_portal_inner_posted_on(); ?>
 		</div><!-- .entry-meta -->
-	</header><!-- .entry-header -->
+	</header><!-- .entry-header -->1w
 
 	<div class="entry-content">
 		<?php
