@@ -30,7 +30,7 @@ get_header(); ?>
 			<?php news_portal_inner_posted_on(); ?>
 		</div><!-- .entry-meta -->
 	</header><!-- .entry-header -->1w
-
+xxxxxasa
 	<div class="entry-content">
 		<?php
 			the_content( sprintf(
