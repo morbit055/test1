@@ -17,7 +17,7 @@ get_header(); ?>
 		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	
 
-	<div class="np-article-thumb">
+	<div class="np-article-thumb">11
 		<?php the_post_thumbnail( 'full' ); ?>
 	</div><!-- .np-article-thumb -->
 
