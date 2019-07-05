@@ -25,7 +25,7 @@ get_header(); ?>
 		<?php 
 			the_title( '<h1 class="entry-title">', '</h1>' );
 			
-		?>
+		?>123
 		<div class="entry-meta">
 			<?php news_portal_inner_posted_on(); ?>
 		</div><!-- .entry-meta -->
