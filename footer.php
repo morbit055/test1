@@ -13,7 +13,7 @@
 	     */
 	    do_action( 'k_footer' );
 	?>
-</div><!-- #page -->
+</div><!-- #page -->s
 
 <?php
 	
