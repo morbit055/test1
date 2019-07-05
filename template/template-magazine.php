@@ -52,7 +52,7 @@ xxxxxasa
 			) );
 		?>
 	</div><!-- .entry-content -->
-
+d
 	<footer class="entry-footer">
 		<?php news_portal_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
